@@ -6,9 +6,14 @@ def _get_password()-> str:
     """
     user_name = input("what is your name? ")
     user_age = input("what is your age? ")
-    _create_password = input("Create your password")
+    _create_password = input("Create your password ")
     _password_length = len(_create_password)
     secret_password = "*" *_password_length
-    print(f" Your password {user_name} is long character but unique, Impressive!")
-_get_password()
+    print(f" Your password {user_name} is a long character {secret_password} but unique, Impressive!")
+
+def main() -> None:
+   _get_password()
+
+if __name__ == "__main__":
+    main()
 
