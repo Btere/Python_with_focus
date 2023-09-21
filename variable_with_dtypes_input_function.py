@@ -16,3 +16,6 @@ def _get_password()-> str:
     secret_password = "*" *_password_length
     logger.debug(f"Your password {user_name} is a long character {secret_password} but unique, Impressive!")
     logger.info("This is cool to understand")
+
+
+# Understanding block of code and for loop
